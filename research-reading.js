@@ -12,6 +12,9 @@ function tableUI(host,tables,period){
  host.innerHTML=`<div class="table-controls">${tables.length>1?`<label>結果表<select data-table aria-label="結果表">${tables.map((t,i)=>`<option value="${i}">${esc(t.title)}（${t.total_rows.toLocaleString('zh-TW')} 列）</option>`).join('')}</select></label>`:''}<label>搜尋結果<input type="search" data-search placeholder="輸入區里、路線、站名或網格 ID"></label>${host.id==='priority-table'?'<label>行政區<select data-district aria-label="行政區"><option value="">全部行政區</option></select></label><label>人口配置方法<select data-method aria-label="人口配置方法"><option value="">全部配置方法</option><option value="residential_support">住宅面積分配</option><option value="uniform_proxy">面積均分代理</option></select></label>':''}<a data-csv download>下載本表完整 CSV</a></div><p class="table-context"></p><div class="value-detail" role="status" aria-live="polite">將滑鼠移到數字上，或用 Tab 鍵聚焦數值，即可查看其單位、分母與定義。</div><div class="table-scroll" tabindex="0" aria-label="結果表，可左右捲動"><table><thead></thead><tbody></tbody></table></div><div class="pagination"><p data-count role="status"></p><div class="actions"><button type="button" data-prev>上一頁</button><button type="button" data-next>下一頁</button></div></div><p class="method-note">表內只顯示每頁 25 列；下載檔包含本表全部列與完整來源欄位。搜尋不改變研究的原始分母。</p>`;
  const detail=host.querySelector('.value-detail');
  if(host.id==='priority-table'){
+  const initialSearch=(new URLSearchParams(location.search).get('prioritySearch')||'').slice(0,180);
+  host.querySelector('[data-search]').value=initialSearch;
+  query=initialSearch.trim().toLocaleLowerCase();
   host.querySelector('[data-district]').insertAdjacentHTML('beforeend',[...new Set(tables[0].rows.map(r=>`${r.city} ${r.district}`))].sort().map(name=>`<option value="${esc(name)}">${esc(name)}</option>`).join(''));
   host.querySelector('[data-district]').onchange=e=>{district=e.target.value;page=0;render()};
   host.querySelector('[data-method]').onchange=e=>{method=e.target.value;page=0;render()};

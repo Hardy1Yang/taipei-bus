@@ -2,7 +2,7 @@
 
 **公車、捷運與日常可達性的時空研究**
 
-[互動圖誌](https://hardy1yang.github.io/taipei-bus/) · [研究全文](https://hardy1yang.github.io/taipei-bus/book.html) · [結果圖表與區里清冊](https://hardy1yang.github.io/taipei-bus/research.html) · [PDF](https://hardy1yang.github.io/taipei-bus/book.pdf)
+[研究發現](https://hardy1yang.github.io/taipei-bus/#findings) · [互動圖誌](https://hardy1yang.github.io/taipei-bus/) · [研究全文](https://hardy1yang.github.io/taipei-bus/book.html) · [結果圖表與區里清冊](https://hardy1yang.github.io/taipei-bus/research.html) · [PDF](https://hardy1yang.github.io/taipei-bus/book.pdf)
 
 本研究整合雙北 41 個行政區、1,051 條公車路線的 2,568 筆去回程與支線紀錄，檢驗路線命名的地理資訊、低維表示保留的路線關係，以及住宅位置與道路連接如何影響到站負擔。
 

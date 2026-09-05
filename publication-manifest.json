@@ -18,7 +18,7 @@
   "report_pdf_sha256": "fcb386fd97f2e56f97ab1f4b9901bfb4f228b9c4085532c225a3c57d9ac4e7e4",
   "validation": {
     "local_production_status": "passed",
-    "first_load_encoded_bytes_max": 1877732,
+    "first_load_encoded_bytes_max": 1882138,
     "root_and_project_path_verified": true,
     "actual_webgl_verified": true,
     "quantitative_claims_verified": 169,
@@ -27,11 +27,13 @@
     "baseline_unchanged": true,
     "offline_replay_floating_atol": 1e-08,
     "offline_replay_floating_rtol": 1e-10,
-    "offline_replay_network_requests": 0
+    "offline_replay_network_requests": 0,
+    "article_findings_and_map_comparison": true,
+    "affected_browser_tests_passed": 35
   },
   "status": "passed",
   "file_count": 285,
-  "total_bytes": 190490751,
+  "total_bytes": 190502527,
   "files": [
     {
       "path": ".github/workflows/pages.yml",
@@ -47,9 +49,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 2921,
-      "gzip_bytes": 1823,
-      "sha256": "3fddf653e89500a454a84d8554d93230e70bf33f2ff7b92b9bf960cf1314d455"
+      "bytes": 2990,
+      "gzip_bytes": 1841,
+      "sha256": "76fe2ae77972a15b85a3f46ad7ba9bc797a8ce43facf7521ee325923b0cdeab7"
     },
     {
       "path": "article-assets/katex-0.18.5/LICENSE.txt",
@@ -184,16 +186,16 @@
       "sha256": "58de0d673317c0ee06548dee01f0f442ecc7927dcf3f1e2e5a72bf77d0931ea7"
     },
     {
-      "path": "assets/index-B_SJX4YC.css",
-      "bytes": 103298,
-      "gzip_bytes": 15123,
-      "sha256": "5f4b07c438499b2bca246412d8e77e7768563c9bfc61539075f4d90818d2071b"
+      "path": "assets/index-Be5j1qJ7.css",
+      "bytes": 104391,
+      "gzip_bytes": 15327,
+      "sha256": "5c4ffaa9a993a6d7b8f48fb8ed9148558b98a1dd78eff1af5667edc138dd3b34"
     },
     {
-      "path": "assets/index-ELJnCSID.js",
-      "bytes": 1056166,
-      "gzip_bytes": 281981,
-      "sha256": "7ffd8b57dac8c0a15ba3fd37567f8d97d17dd2f3b7509f1225cdd184fd649aca"
+      "path": "assets/index-D13BIsK7.js",
+      "bytes": 1060293,
+      "gzip_bytes": 283801,
+      "sha256": "e2c252188e0b1d9dbab6a87ca9290c26c81dbf4fbdf5919050689d226afa6ca7"
     },
     {
       "path": "assets/maplibre-gl-worker-AbPoOmO0.js",
@@ -1487,9 +1489,9 @@
     },
     {
       "path": "index.html",
-      "bytes": 17690,
-      "gzip_bytes": 7597,
-      "sha256": "734678fed45e357e0c6bb11fe755a5ae0946a887ee79e55342a9bb7c1017f33f"
+      "bytes": 23967,
+      "gzip_bytes": 9979,
+      "sha256": "6d0e4c388b4fe5963587cbc75f99bc00e3eb60b3626c9dc97ee26e698827621f"
     },
     {
       "path": "research-data/F01.json",
@@ -1722,8 +1724,8 @@
     {
       "path": "research-publish-manifest.json",
       "bytes": 4348,
-      "gzip_bytes": 2070,
-      "sha256": "76acd7b8b0045b0c65b5baf6c0f610eccd6c0c152d7b7aa3b5e5c50686ff9cb4"
+      "gzip_bytes": 2073,
+      "sha256": "1ebeb4615a87f38bbc6e7ffc74f2f751289c784b1bcc7f3222d9d95e0d81d0ab"
     },
     {
       "path": "research-reading.css",
@@ -1733,9 +1735,9 @@
     },
     {
       "path": "research-reading.js",
-      "bytes": 10354,
-      "gzip_bytes": 4438,
-      "sha256": "4ec2079c27c8ac9ec6d3d6bd1baaa2284f13e00ea809cf3e709a0c841aadc054"
+      "bytes": 10564,
+      "gzip_bytes": 4504,
+      "sha256": "a8154029492c6880db01cef54647784e15ccc944a39ca0436071a7294b99616e"
     },
     {
       "path": "research.html",
@@ -1743,5 +1745,6 @@
       "gzip_bytes": 5346,
       "sha256": "150678bc7e9e6c4fde5b0aa4e96533d17c694d99f86e80de63db6d71e9739112"
     }
-  ]
+  ],
+  "website_revision": "article-alignment-2026-09-06"
 }
