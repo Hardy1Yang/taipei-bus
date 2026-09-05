@@ -1,0 +1,1361 @@
+{
+  "run_id": "00785592a53aa515ec69",
+  "edition": "2026-09-05",
+  "research_status": "partial",
+  "scope": [
+    "Taipei",
+    "NewTaipei"
+  ],
+  "route_records": 2568,
+  "parent_routes": 1051,
+  "population_period": "2024-12",
+  "activity_period": "2020-11",
+  "metro_period": "2026-07",
+  "content_policy": "Built results website, report and necessary derived layers; analysis code and raw snapshots retained locally.",
+  "manifest_self_excluded": true,
+  "report_pdf_sha256": "1b7126ec58e9401d583cdca4d53660b3c5dfc695075c2c63a1fe33eaac6a2190",
+  "validation": {
+    "primary_geometry_umap_max_absolute_difference": 0,
+    "replayed_tables": 12,
+    "replayed_json": 3,
+    "absolute_tolerance": 1e-05,
+    "relative_tolerance": 1e-10,
+    "cached_inputs": "normalized sources, distance matrices and other model settings; these are not claimed as newly fitted",
+    "first_load_gzip_bytes": 1840812,
+    "root_and_project_path_verified": true,
+    "actual_webgl_verified": true,
+    "dependency_vulnerabilities": 0
+  },
+  "status": "passed",
+  "total_bytes": 152254957,
+  "file_count": 221,
+  "files": [
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 970,
+      "gzip_bytes": 522,
+      "sha256": "8b72ff4259c69703b6dc59f4e41206a6c51623784ffed746d31069adfa4ad095"
+    },
+    {
+      "path": "LICENSES.md",
+      "bytes": 54185,
+      "gzip_bytes": 8190,
+      "sha256": "7d27e83a5a35fc0bdc0880142f6196039796b3e5d635968f59147d91e1a6b957"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2164,
+      "gzip_bytes": 1417,
+      "sha256": "38a1da15c300aae8318254cb1691eeeb1b2c046682bdd2d5da6739904d518497"
+    },
+    {
+      "path": "assets/index-B_SJX4YC.css",
+      "bytes": 103298,
+      "gzip_bytes": 15123,
+      "sha256": "5f4b07c438499b2bca246412d8e77e7768563c9bfc61539075f4d90818d2071b"
+    },
+    {
+      "path": "assets/index-DaMOAutZ.js",
+      "bytes": 1051489,
+      "gzip_bytes": 280316,
+      "sha256": "c6f516bf0dd32a246fae38e8fc4d15c3306f861c89a909b72f9f66dd004b5b04"
+    },
+    {
+      "path": "assets/maplibre-gl-worker-AbPoOmO0.js",
+      "bytes": 485828,
+      "gzip_bytes": 134703,
+      "sha256": "f06be9a5c39d20aa502cafe49b9ed607c612ecfa70cb175e5fc5a78502c611bf"
+    },
+    {
+      "path": "assets/motion-d3fGLkPq.js",
+      "bytes": 113242,
+      "gzip_bytes": 43874,
+      "sha256": "b0fe03ca5d73e93531542534db01582a01e94644e0d647b2423c422bac93eb08"
+    },
+    {
+      "path": "book.html",
+      "bytes": 66740,
+      "gzip_bytes": 28311,
+      "sha256": "3f991e4ff9b4a4cbfda1bd59ed50c20d9a6b0d846770824afd7d8713554abb11"
+    },
+    {
+      "path": "book.md",
+      "bytes": 58926,
+      "gzip_bytes": 25959,
+      "sha256": "5182394ec40679d37cdaee8a657ccb879bbffe590286709a52f4453120bdbdc1"
+    },
+    {
+      "path": "book.pdf",
+      "bytes": 2467651,
+      "gzip_bytes": 1811435,
+      "sha256": "1b7126ec58e9401d583cdca4d53660b3c5dfc695075c2c63a1fe33eaac6a2190"
+    },
+    {
+      "path": "data/activity.json",
+      "bytes": 427812,
+      "gzip_bytes": 11310,
+      "sha256": "ac01b3ed9d3b157b6d1d51c5ed197b9d9dc8acdb14011ab7e09aa3552c5b2e3b"
+    },
+    {
+      "path": "data/candidates.geojson",
+      "bytes": 6598957,
+      "gzip_bytes": 845805,
+      "sha256": "3061f5c9d25742ef56d2aa9086b3b5e8d09b317653e76846cd89d571330f3787"
+    },
+    {
+      "path": "data/case-distances.png",
+      "bytes": 59165,
+      "gzip_bytes": 53383,
+      "sha256": "8765ae0f811bc9e44f57dbdbc1613b8bd5e3f655443871a88f359f5f3f9fd478"
+    },
+    {
+      "path": "data/case-distances.svg",
+      "bytes": 114326,
+      "gzip_bytes": 39510,
+      "sha256": "646d919c028a5aa00c0f95cd3110b29c828f9bb53f063a8f2fa331f44e7da65e"
+    },
+    {
+      "path": "data/case-map.geojson",
+      "bytes": 41965,
+      "gzip_bytes": 6357,
+      "sha256": "ea9b0b6d92ea0c7672aad1220f43b28986107d4168a586b8d94f6fc257312d65"
+    },
+    {
+      "path": "data/cases.json",
+      "bytes": 24829,
+      "gzip_bytes": 4450,
+      "sha256": "1729569783ebf62112502e2a97fdf86d5514549495ad3aa6748d1a2dbfe030e6"
+    },
+    {
+      "path": "data/district-index.json",
+      "bytes": 18811,
+      "gzip_bytes": 2099,
+      "sha256": "b2d0f803f8821ade97c5230935179ef4ec6d1c5cf56c217d5e37d171f6e354d4"
+    },
+    {
+      "path": "data/districts.geojson",
+      "bytes": 598398,
+      "gzip_bytes": 223938,
+      "sha256": "ece7333f938007936aa28e431684e03183db689ee5d7d439f61fd59ff37ae7bb"
+    },
+    {
+      "path": "data/downloads/route-coordinates.csv",
+      "bytes": 1421822,
+      "gzip_bytes": 439472,
+      "sha256": "4be69d0e74d329efdd8dd788c03974cce6116fbbe2bb710efd100d1ebe5f3b85"
+    },
+    {
+      "path": "data/downloads/route-geometries.geojson.gz",
+      "bytes": 5846965,
+      "gzip_bytes": 5819372,
+      "sha256": "6e1de77654638ba475c3660bf519e9dfd927803e0cfbde3d29703dd52f52f708"
+    },
+    {
+      "path": "data/downloads/scenarios.csv",
+      "bytes": 7174,
+      "gzip_bytes": 597,
+      "sha256": "5fd0e19f739bbbf390b526bd607347c6a039fd17799fc6e7f22e45173000dfed"
+    },
+    {
+      "path": "data/embedding-diagnostics.json",
+      "bytes": 304153,
+      "gzip_bytes": 40048,
+      "sha256": "3cbeb9382e9d30208cc41e71024022eddcecac08a58ad5afff42bf0880cddd66"
+    },
+    {
+      "path": "data/hillshade.png",
+      "bytes": 766993,
+      "gzip_bytes": 762441,
+      "sha256": "78415203678ddbf7e1b7401684162d1dde5a4f27e16568bb9cb6a6b4ba9c70ad"
+    },
+    {
+      "path": "data/manifold-comparison.png",
+      "bytes": 151203,
+      "gzip_bytes": 145881,
+      "sha256": "3aabb488d21a3d416f631696c04f080959ebe920294c957c90d4582a3ba726d7"
+    },
+    {
+      "path": "data/manifold-comparison.svg",
+      "bytes": 779330,
+      "gzip_bytes": 89728,
+      "sha256": "1b4f68a5f7c56da1598d86f9bd8c9a460f71cb9f774c491326674cf8d4108b12"
+    },
+    {
+      "path": "data/meta.json",
+      "bytes": 21942,
+      "gzip_bytes": 3842,
+      "sha256": "6d497459b5a0a5926614d077cf213616cb88827c65bb46479fd2d0a5f8c08822"
+    },
+    {
+      "path": "data/metro-entrances.geojson",
+      "bytes": 126558,
+      "gzip_bytes": 7128,
+      "sha256": "af1c60bc31956f180de99e7a5e85fae49947136e1974cf2d6bcca13c8be0c0ab"
+    },
+    {
+      "path": "data/metro-flows.json",
+      "bytes": 1723587,
+      "gzip_bytes": 106566,
+      "sha256": "65bbd77f69902c54e3ab0f6f33bb8994845cf04b67a901e97bf3514d73b14c95"
+    },
+    {
+      "path": "data/metro-stations.geojson",
+      "bytes": 23908,
+      "gzip_bytes": 4032,
+      "sha256": "42626800c2bcb84224f19c88a02b52d24e9fe1eee0255120fc13b2958d24d24b"
+    },
+    {
+      "path": "data/metro-supplementary-entrances.geojson",
+      "bytes": 223693,
+      "gzip_bytes": 12956,
+      "sha256": "0f3c596084d2fd8ddc8c5bc71ffa4f7e870cf3db4815c60f1f0144463d000878"
+    },
+    {
+      "path": "data/metro-supplementary-stations.geojson",
+      "bytes": 87425,
+      "gzip_bytes": 7309,
+      "sha256": "c7c6c3587e321f23861e39cf9eb88672f0269beb1fcb943f956efb7955710ecd"
+    },
+    {
+      "path": "data/metro-system-coverage.json",
+      "bytes": 13159,
+      "gzip_bytes": 3804,
+      "sha256": "760fd19613a4802eff3ee5ac0bc70f278ca6d82a25f22d2729ddbc2efc58eecc"
+    },
+    {
+      "path": "data/neighbors/00.json",
+      "bytes": 524267,
+      "gzip_bytes": 96300,
+      "sha256": "5675c4626f814ea46b579c6d65da2f1c6038302dc2d4bcf5e4e4b70e78f5a76a"
+    },
+    {
+      "path": "data/neighbors/01.json",
+      "bytes": 541484,
+      "gzip_bytes": 103550,
+      "sha256": "66f1387d87c73a35275b8ead6a6c15f381338be69a012c372d16992df8207c5e"
+    },
+    {
+      "path": "data/neighbors/02.json",
+      "bytes": 491430,
+      "gzip_bytes": 85174,
+      "sha256": "a6e82d14cab4b8a616020aef4a2cdeb86fb698666950089ec1d36b700825a70b"
+    },
+    {
+      "path": "data/neighbors/03.json",
+      "bytes": 517630,
+      "gzip_bytes": 89228,
+      "sha256": "a1660a80526a7f7249eefd4cb90c1f0261d23a3c5a55fb0e00cebcc503f1cd83"
+    },
+    {
+      "path": "data/neighbors/04.json",
+      "bytes": 505394,
+      "gzip_bytes": 91808,
+      "sha256": "5f0d6ca634b47a541ca9c2575e6955a0490416533371c6281e83311ca3e3b43e"
+    },
+    {
+      "path": "data/neighbors/05.json",
+      "bytes": 547714,
+      "gzip_bytes": 99610,
+      "sha256": "2937237919769b5a1354f076eb3fb371fe85afaadb91f800dc040fbc276127db"
+    },
+    {
+      "path": "data/neighbors/06.json",
+      "bytes": 483878,
+      "gzip_bytes": 88260,
+      "sha256": "64da4908b48ccf95e6cf8487d1bd45e65328ac995ed15cd32dfa12547b38a82d"
+    },
+    {
+      "path": "data/neighbors/07.json",
+      "bytes": 489629,
+      "gzip_bytes": 88832,
+      "sha256": "d0ecaebab27606584b18042794ce91fb7914575d7987c598fc7c99287900516a"
+    },
+    {
+      "path": "data/neighbors/08.json",
+      "bytes": 483571,
+      "gzip_bytes": 89983,
+      "sha256": "357e0142879a2792775d4ea126257863b9c372a82cfcc88f6e5322f227dd5871"
+    },
+    {
+      "path": "data/neighbors/09.json",
+      "bytes": 576425,
+      "gzip_bytes": 108028,
+      "sha256": "5b5178c2f8bf952a02ba9fb1dd99d77c2ab1f52556452c31d569e3c4e892a4e1"
+    },
+    {
+      "path": "data/neighbors/10.json",
+      "bytes": 434788,
+      "gzip_bytes": 78861,
+      "sha256": "0ce47652cd5f7789ffbe964795d0175b7b3ff364f0fb07b921e9316cf3f8ed9e"
+    },
+    {
+      "path": "data/neighbors/11.json",
+      "bytes": 433036,
+      "gzip_bytes": 79272,
+      "sha256": "644e12f4766660cf1400b9fa5099ce4b1bbcaca381b5eff4e31ed1240811dc94"
+    },
+    {
+      "path": "data/neighbors/12.json",
+      "bytes": 474263,
+      "gzip_bytes": 86925,
+      "sha256": "f8f6282366b1ad9e71674da43302664105930042f989f3668e9c84c7a61ecb5d"
+    },
+    {
+      "path": "data/neighbors/13.json",
+      "bytes": 510532,
+      "gzip_bytes": 94378,
+      "sha256": "f8bb5be7ed8cb666b0238d432d2a20055c8ddfc1e9350bdfff0b2ef61433314b"
+    },
+    {
+      "path": "data/neighbors/14.json",
+      "bytes": 507113,
+      "gzip_bytes": 88878,
+      "sha256": "ad73421756f5bf1dcf6a785697f22a225bfaad0cc12d8885aef1513072496cd8"
+    },
+    {
+      "path": "data/neighbors/15.json",
+      "bytes": 556800,
+      "gzip_bytes": 104311,
+      "sha256": "13c4f28237338352ee338b5bb9226838e7b315a8cad4437fa22c89df821adb4d"
+    },
+    {
+      "path": "data/overview.png",
+      "bytes": 432816,
+      "gzip_bytes": 430706,
+      "sha256": "ac4f2ba93ccf7cd787269ffa2df926dadd5571c4f6814710cdcccad75face327"
+    },
+    {
+      "path": "data/places-index.json",
+      "bytes": 510137,
+      "gzip_bytes": 44513,
+      "sha256": "46d4330b6b7578360265a74c6bfd70a12ab13f6d5fe4fa9f62c6969b5f0bae40"
+    },
+    {
+      "path": "data/places.geojson",
+      "bytes": 208373,
+      "gzip_bytes": 28626,
+      "sha256": "8eba891257a86aae91ad3c37ad27956a1530c12b2bc37ef2812837c74c051f46"
+    },
+    {
+      "path": "data/population/63000010.geojson",
+      "bytes": 121227,
+      "gzip_bytes": 13787,
+      "sha256": "68384e912fc3dfbc381c3a3c18d384015c8e05b941641b4f31cb81314fe8289e"
+    },
+    {
+      "path": "data/population/63000020.geojson",
+      "bytes": 168079,
+      "gzip_bytes": 21398,
+      "sha256": "ab7ce54fee4f3c48608c39e66cb064aa626c058a6516e60dcf4cb672e2136693"
+    },
+    {
+      "path": "data/population/63000030.geojson",
+      "bytes": 167847,
+      "gzip_bytes": 21366,
+      "sha256": "af789ef060a0404a4d4cefd441b2e3ae524cc81fc5d2cb050d909b7146ba9d4d"
+    },
+    {
+      "path": "data/population/63000040.geojson",
+      "bytes": 199269,
+      "gzip_bytes": 22540,
+      "sha256": "00955c8d0526a66476a2f08618f64d6b1c3b9a97d25d30a365890dbf7c74d0fb"
+    },
+    {
+      "path": "data/population/63000050.geojson",
+      "bytes": 119909,
+      "gzip_bytes": 17345,
+      "sha256": "811245d46fadff33cbd2ca67e67dd3f8fb2b44b393077a180d9d672c484cfae7"
+    },
+    {
+      "path": "data/population/63000060.geojson",
+      "bytes": 84025,
+      "gzip_bytes": 12546,
+      "sha256": "a769aa3de08f7a7b1cfc0dd62e7b96249714fa353afe92a86037bcd18f3bbbda"
+    },
+    {
+      "path": "data/population/63000070.geojson",
+      "bytes": 141628,
+      "gzip_bytes": 21748,
+      "sha256": "f371025263067db38f8cc80a72cfc8806ba9dfa94c17dfdb5fb17fd105b36fd6"
+    },
+    {
+      "path": "data/population/63000080.geojson",
+      "bytes": 569556,
+      "gzip_bytes": 85526,
+      "sha256": "bc7bbd4e91d92653aa767e697e2e84f78c57179ed794bad473af437af503738f"
+    },
+    {
+      "path": "data/population/63000090.geojson",
+      "bytes": 392546,
+      "gzip_bytes": 57498,
+      "sha256": "69c4026d35774a6a08cb5be1bbab7d3e883a68c973252d1c0ece2d58c8a3dee1"
+    },
+    {
+      "path": "data/population/63000100.geojson",
+      "bytes": 486150,
+      "gzip_bytes": 59691,
+      "sha256": "2adc84fb8b78a80b0c0e20cc46c48f28fa46525061d19eebe726bd5b676ef756"
+    },
+    {
+      "path": "data/population/63000110.geojson",
+      "bytes": 952699,
+      "gzip_bytes": 111887,
+      "sha256": "60021de93d2bd5f9fd9435ecf0a389b2ae3097aac1702f5abb83b982d4713895"
+    },
+    {
+      "path": "data/population/63000120.geojson",
+      "bytes": 888414,
+      "gzip_bytes": 103699,
+      "sha256": "7d84c72e339d924ba5880e20b1ff3c33c0401294639a9dee26521cf0c4f01848"
+    },
+    {
+      "path": "data/population/65000010.geojson",
+      "bytes": 314319,
+      "gzip_bytes": 36236,
+      "sha256": "4e74b90197c47f8561878bccdda77a0c64056802a16814b6d744a99ba1cc5b3d"
+    },
+    {
+      "path": "data/population/65000020.geojson",
+      "bytes": 284072,
+      "gzip_bytes": 35553,
+      "sha256": "88881eeeb03eaad603d5ab6e76331b635b334f523e6126bc5d5f8fe49637e9fb"
+    },
+    {
+      "path": "data/population/65000030.geojson",
+      "bytes": 281928,
+      "gzip_bytes": 33501,
+      "sha256": "afebb8b0a0e65aeb2e65b844b5801601b938c9555b80ebe58c953e7f19d2e06d"
+    },
+    {
+      "path": "data/population/65000040.geojson",
+      "bytes": 122499,
+      "gzip_bytes": 20080,
+      "sha256": "62d8cb1ed029059d4720aaf8ceee5f76498a1f91670c707d527c105bce129349"
+    },
+    {
+      "path": "data/population/65000050.geojson",
+      "bytes": 324045,
+      "gzip_bytes": 42174,
+      "sha256": "29f956ad30b78fde6bf4c276d314fc66b68ec13e08187747f2580774af072823"
+    },
+    {
+      "path": "data/population/65000060.geojson",
+      "bytes": 1709923,
+      "gzip_bytes": 176417,
+      "sha256": "a9af505a64b1933074d90ce3e517594b4fccf2689dc8699eccff9bc5b02cb0ab"
+    },
+    {
+      "path": "data/population/65000070.geojson",
+      "bytes": 496360,
+      "gzip_bytes": 61135,
+      "sha256": "bcfd9fc3fdfd9e71c0dbd0c6662dc2d96cb4bd2655611f88a782891424fc8ba5"
+    },
+    {
+      "path": "data/population/65000080.geojson",
+      "bytes": 376460,
+      "gzip_bytes": 52210,
+      "sha256": "758ed8bb82628d8909ed599faaddd94a49139ecae459faee6282edbd270ccf38"
+    },
+    {
+      "path": "data/population/65000090.geojson",
+      "bytes": 2711352,
+      "gzip_bytes": 286435,
+      "sha256": "c831509b79db35f841faf46cc961121a5a00b33d20ed1ec346884cea34203606"
+    },
+    {
+      "path": "data/population/65000100.geojson",
+      "bytes": 1089546,
+      "gzip_bytes": 123550,
+      "sha256": "382e7d152383b000dc5667d747f2cf1bb151d2ef657300667c559db0f00ff5af"
+    },
+    {
+      "path": "data/population/65000110.geojson",
+      "bytes": 1187016,
+      "gzip_bytes": 156867,
+      "sha256": "fa3d6e8ee3fd91e30562346afc8f826f08177550bfea53ed5e13bbdc30cc1761"
+    },
+    {
+      "path": "data/population/65000120.geojson",
+      "bytes": 1164078,
+      "gzip_bytes": 145610,
+      "sha256": "51bb06db1321232eab69dce8473910de60ef17389eae196ba7cb64f08511aeae"
+    },
+    {
+      "path": "data/population/65000130.geojson",
+      "bytes": 413360,
+      "gzip_bytes": 40654,
+      "sha256": "18f55b40e8b3f498ba1e079126cdcd2b12c93566283a7b82adbaafcc34a2f30b"
+    },
+    {
+      "path": "data/population/65000140.geojson",
+      "bytes": 119869,
+      "gzip_bytes": 16063,
+      "sha256": "8cadf213b2c195068250062b809d8b5e25e2d2352c34eeb7b718c4ae3f443736"
+    },
+    {
+      "path": "data/population/65000150.geojson",
+      "bytes": 477467,
+      "gzip_bytes": 47536,
+      "sha256": "5a50634b07ff4ceb66442e476857f9fb7fe6f18eead57b40cd8944231380120b"
+    },
+    {
+      "path": "data/population/65000160.geojson",
+      "bytes": 294020,
+      "gzip_bytes": 39943,
+      "sha256": "47268fcbde0c752173a2777a9f3a864a1d51e11863c3e119f202f97d41171838"
+    },
+    {
+      "path": "data/population/65000170.geojson",
+      "bytes": 885142,
+      "gzip_bytes": 117806,
+      "sha256": "802cc4b85375faf728e2fcb3cc868f414619a60270c18d2902da6770130d35f6"
+    },
+    {
+      "path": "data/population/65000180.geojson",
+      "bytes": 354243,
+      "gzip_bytes": 47527,
+      "sha256": "0355592135ec6e7ea33f042649b48058091196f6e0f2446b49c57dda86f40d4b"
+    },
+    {
+      "path": "data/population/65000190.geojson",
+      "bytes": 1949060,
+      "gzip_bytes": 152803,
+      "sha256": "dbb7d67794f544bbc6d2b35ba3b804c5b0851e186fb2f0b777fc28e1dd0cb33b"
+    },
+    {
+      "path": "data/population/65000200.geojson",
+      "bytes": 2372117,
+      "gzip_bytes": 226755,
+      "sha256": "c371d4bf1e11f635c90d868f1869b3ca3b481356d1c1fea098ff2781aace7830"
+    },
+    {
+      "path": "data/population/65000210.geojson",
+      "bytes": 982906,
+      "gzip_bytes": 104167,
+      "sha256": "3e76c75e8d3b972b5d6aa7975548ec56c53b7dfc72b7d2041d525bcbd0c78bd4"
+    },
+    {
+      "path": "data/population/65000220.geojson",
+      "bytes": 787913,
+      "gzip_bytes": 86054,
+      "sha256": "252aaa27cc091086cea5b9054f3da31ae3e541954eed872028df07695cf4ffdb"
+    },
+    {
+      "path": "data/population/65000230.geojson",
+      "bytes": 579455,
+      "gzip_bytes": 58732,
+      "sha256": "800de208092f4f26f681a50248ddb66694029172e0b8b135631cac191f18003b"
+    },
+    {
+      "path": "data/population/65000240.geojson",
+      "bytes": 986086,
+      "gzip_bytes": 85538,
+      "sha256": "cac8e47034d4a8c24e6384f1365139247460af3be9d9b078d233eea26c0364f3"
+    },
+    {
+      "path": "data/population/65000250.geojson",
+      "bytes": 2012421,
+      "gzip_bytes": 170705,
+      "sha256": "00593c28ed2e4c4a354649daa07e61c6630aabc5c9cdddea978d8ac3a7958b8d"
+    },
+    {
+      "path": "data/population/65000260.geojson",
+      "bytes": 1534837,
+      "gzip_bytes": 161721,
+      "sha256": "8be1cca9b34639643ae60798364b75508a3dac244e7bb2c546cccf7194a3a11a"
+    },
+    {
+      "path": "data/population/65000270.geojson",
+      "bytes": 720982,
+      "gzip_bytes": 75077,
+      "sha256": "76bc032b1c83a63ee255543f8c676941c74a78eb64b673584c0bb3bd753a7aad"
+    },
+    {
+      "path": "data/population/65000280.geojson",
+      "bytes": 1025341,
+      "gzip_bytes": 123559,
+      "sha256": "90460a0c1d9b64c4c924711b059d89ccd0610de2d3af3b273ae0f766fdf2f174"
+    },
+    {
+      "path": "data/population/65000290.geojson",
+      "bytes": 4518874,
+      "gzip_bytes": 364738,
+      "sha256": "47e848962823a0cd450c877557ec6895c08f73f4d327f0a9ae4d403eac169438"
+    },
+    {
+      "path": "data/railways.geojson",
+      "bytes": 622559,
+      "gzip_bytes": 78275,
+      "sha256": "08c0f1a7b0b4b42542bcaaeda8efd0c0f85474e55162cc3c77c114ab77afce48"
+    },
+    {
+      "path": "data/representative-routes.json",
+      "bytes": 5406,
+      "gzip_bytes": 1985,
+      "sha256": "0afbe51dc563d5511a41ff6f5a8cdf0a2fdebc4bfcd22dcefc9e2ac91ab9faa5"
+    },
+    {
+      "path": "data/representative-routes.png",
+      "bytes": 587800,
+      "gzip_bytes": 577317,
+      "sha256": "1f5b0ea083af67dd22f7f638a4e97bef2095606b66dc680c5379bb09510de9c5"
+    },
+    {
+      "path": "data/representative-routes.svg",
+      "bytes": 2619151,
+      "gzip_bytes": 1025445,
+      "sha256": "ef22924d1b143bfb431820d8f944fe81361e0ee83741b227168f6a248d8e4347"
+    },
+    {
+      "path": "data/rivers.geojson",
+      "bytes": 3603917,
+      "gzip_bytes": 707680,
+      "sha256": "8e2527ace4f02734c5c3f8bc54b423b09da1bb929495472332cba9ce9a599140"
+    },
+    {
+      "path": "data/roads/63000010.geojson",
+      "bytes": 775110,
+      "gzip_bytes": 75572,
+      "sha256": "81a4e01345d466ad45ddd64b6220d92989e39552b2862d8f2a205c67156b51d6"
+    },
+    {
+      "path": "data/roads/63000020.geojson",
+      "bytes": 929579,
+      "gzip_bytes": 104251,
+      "sha256": "4363fe7be9c8322de4bdb8879c1133798b6334368566b4c8ecebf6e9a0e63ea7"
+    },
+    {
+      "path": "data/roads/63000030.geojson",
+      "bytes": 1555363,
+      "gzip_bytes": 156789,
+      "sha256": "ea7e08a36e493a08773cd47a2a2dc1a6f544242773f1c34f6aa40352df5301b2"
+    },
+    {
+      "path": "data/roads/63000040.geojson",
+      "bytes": 1235579,
+      "gzip_bytes": 131139,
+      "sha256": "c1f1096de8287bd4e862a3b90b68d28f4d1810b9310d1729ba25ecc36543de60"
+    },
+    {
+      "path": "data/roads/63000050.geojson",
+      "bytes": 1047407,
+      "gzip_bytes": 112299,
+      "sha256": "42f939400d1d803f8874a2bb79fe1d84c2b815fe8277ccb3f54ef4eebb9b35ac"
+    },
+    {
+      "path": "data/roads/63000060.geojson",
+      "bytes": 441519,
+      "gzip_bytes": 47938,
+      "sha256": "eecad8cb7fbba3341438d158bd9bfab6664ff02895f4d54af4b79bb2cc7b6479"
+    },
+    {
+      "path": "data/roads/63000070.geojson",
+      "bytes": 584438,
+      "gzip_bytes": 67899,
+      "sha256": "01a9a6e6bad55914ce93f6b2a421a52b59522d2619158cdc9bb6e9eaf698860f"
+    },
+    {
+      "path": "data/roads/63000080.geojson",
+      "bytes": 1779994,
+      "gzip_bytes": 219647,
+      "sha256": "0d129a4da9cfa0e640c0f85f31b04f7b206927d44de799b170773a5e5dd39019"
+    },
+    {
+      "path": "data/roads/63000090.geojson",
+      "bytes": 845524,
+      "gzip_bytes": 107343,
+      "sha256": "b4c66976727a8570e2f61339e7a8a09a4ba67257938b159145b7ce7043aa47e0"
+    },
+    {
+      "path": "data/roads/63000100.geojson",
+      "bytes": 1265551,
+      "gzip_bytes": 156951,
+      "sha256": "696e0f8ec3127267498553850593512a175edd50a538d4397e7134006dd618de"
+    },
+    {
+      "path": "data/roads/63000110.geojson",
+      "bytes": 1872547,
+      "gzip_bytes": 247011,
+      "sha256": "d8fbcff44b3efb49961ea68aa7deb069656b98cf78cf5d9e7f67736bd06ca1ed"
+    },
+    {
+      "path": "data/roads/63000120.geojson",
+      "bytes": 1965390,
+      "gzip_bytes": 251051,
+      "sha256": "cdbe4ec06f236da13e39c3a43a28d91e40dff558130d301a3921ad4c521bd568"
+    },
+    {
+      "path": "data/roads/65000010.geojson",
+      "bytes": 1207629,
+      "gzip_bytes": 143743,
+      "sha256": "7c29f8fd92be8884a336eb6772fcddffa341b2196c842a3c21f4f0cd6eb90727"
+    },
+    {
+      "path": "data/roads/65000020.geojson",
+      "bytes": 809092,
+      "gzip_bytes": 97266,
+      "sha256": "680035179787135094958ef8f96ade7d8246903bb83718b6bdfb3e215c5b62b4"
+    },
+    {
+      "path": "data/roads/65000030.geojson",
+      "bytes": 941718,
+      "gzip_bytes": 116728,
+      "sha256": "619186c2f7fee5de90d879b6d01be9536702a1a96195027d352d1dd89a841ed3"
+    },
+    {
+      "path": "data/roads/65000040.geojson",
+      "bytes": 536425,
+      "gzip_bytes": 60873,
+      "sha256": "5d0268512c2ea12dc8ceccc784adc31a54f0e2728bbc84b7e6849e497ea68f10"
+    },
+    {
+      "path": "data/roads/65000050.geojson",
+      "bytes": 945365,
+      "gzip_bytes": 109417,
+      "sha256": "29406d1a12b5472df340254fbf4e9108cffb790ac2d2ea55fa02afc32c50b61d"
+    },
+    {
+      "path": "data/roads/65000060.geojson",
+      "bytes": 1803872,
+      "gzip_bytes": 267332,
+      "sha256": "297ed5e552a8425a1716928136e8e2ef9c3c3e1bd3c173b387ee4a7e53c2f0a4"
+    },
+    {
+      "path": "data/roads/65000070.geojson",
+      "bytes": 771479,
+      "gzip_bytes": 101754,
+      "sha256": "198830895d59fd23aa8957db6c35438ffc63c747ca754e4cc42027f7a00246e8"
+    },
+    {
+      "path": "data/roads/65000080.geojson",
+      "bytes": 483278,
+      "gzip_bytes": 66384,
+      "sha256": "87afedf6db334b1e74be2e211e1585c3ee75e177b849475fc15cf9f6f008ae45"
+    },
+    {
+      "path": "data/roads/65000090.geojson",
+      "bytes": 1457382,
+      "gzip_bytes": 255693,
+      "sha256": "78d38d85dcd00ce75ebe05178ecd666095fc2693d351c455636537047eafbaef"
+    },
+    {
+      "path": "data/roads/65000100.geojson",
+      "bytes": 1274175,
+      "gzip_bytes": 179408,
+      "sha256": "d47c4786d316753e4e221d835f439ba08ac755de977c2408435ab3365c325dab"
+    },
+    {
+      "path": "data/roads/65000110.geojson",
+      "bytes": 1093804,
+      "gzip_bytes": 164313,
+      "sha256": "08f1c7b7b3db68dfb3cf6262bf6ee577ebb8927303210d7dacb27b7c8020d9f7"
+    },
+    {
+      "path": "data/roads/65000120.geojson",
+      "bytes": 891800,
+      "gzip_bytes": 143712,
+      "sha256": "d7ee032c456163f521a15666eb79f213c4d4e71253367f3e80ca3f33c5e84677"
+    },
+    {
+      "path": "data/roads/65000130.geojson",
+      "bytes": 802322,
+      "gzip_bytes": 108963,
+      "sha256": "8044b0065461e03240965050582e80a706fe687cd402cb9e8badfa8a8e1db8e7"
+    },
+    {
+      "path": "data/roads/65000140.geojson",
+      "bytes": 264963,
+      "gzip_bytes": 32686,
+      "sha256": "e2ba653c520a7e2bc717c5fdafd131df73905561db403472f70a059027cbc990"
+    },
+    {
+      "path": "data/roads/65000150.geojson",
+      "bytes": 555608,
+      "gzip_bytes": 78712,
+      "sha256": "641065e474fecd1cd99ebde2d68f02405fdd9be664a8a4d501377c85e5cc3935"
+    },
+    {
+      "path": "data/roads/65000160.geojson",
+      "bytes": 358393,
+      "gzip_bytes": 47177,
+      "sha256": "abbe03ba58ad5e0d224dc870853df5f8c3870897bfe3570ad133f3d896b38289"
+    },
+    {
+      "path": "data/roads/65000170.geojson",
+      "bytes": 669717,
+      "gzip_bytes": 101832,
+      "sha256": "1aaa1afd5ccad964d6186d61e875009072345ceab0bc5ffed9d62a7427c4270d"
+    },
+    {
+      "path": "data/roads/65000180.geojson",
+      "bytes": 286748,
+      "gzip_bytes": 49258,
+      "sha256": "9ef5936f7e843efff0a40fc5449071dcbba9bab627dc3d8c19fe49305307ff3a"
+    },
+    {
+      "path": "data/roads/65000190.geojson",
+      "bytes": 675419,
+      "gzip_bytes": 137571,
+      "sha256": "a5b1fc5d9742d551d1f9a0380028c77c1a83c8e82ebb7818606c3fbe59917adb"
+    },
+    {
+      "path": "data/roads/65000200.geojson",
+      "bytes": 634081,
+      "gzip_bytes": 135371,
+      "sha256": "dbc45ad25a93577a2f6e4cc2b745ddd840f30345ff4cf6635ad8892f7f79d054"
+    },
+    {
+      "path": "data/roads/65000210.geojson",
+      "bytes": 545983,
+      "gzip_bytes": 98390,
+      "sha256": "29aa9bddc32e7cceea685c4a4eacae33600d99eb108d125771d568a9ee19c676"
+    },
+    {
+      "path": "data/roads/65000220.geojson",
+      "bytes": 370183,
+      "gzip_bytes": 67146,
+      "sha256": "bdecd02d0f1516dd8167f35b7eb5e485c4f2a27c2c4cfb790656898293cb1bfc"
+    },
+    {
+      "path": "data/roads/65000230.geojson",
+      "bytes": 500101,
+      "gzip_bytes": 73483,
+      "sha256": "c4c933e6348dd2a9edbc63113d7e9c710103e92e4248f34c9d0948c386b67530"
+    },
+    {
+      "path": "data/roads/65000240.geojson",
+      "bytes": 476081,
+      "gzip_bytes": 92057,
+      "sha256": "884a87cada6f5f0135ba0cbdf29909ee922704f1e973017f251b5c390639ab07"
+    },
+    {
+      "path": "data/roads/65000250.geojson",
+      "bytes": 753874,
+      "gzip_bytes": 151172,
+      "sha256": "1469cd4a432ffdb5cc5e3fcf0e4941fe0b5398e973870fad979be24a1ed58280"
+    },
+    {
+      "path": "data/roads/65000260.geojson",
+      "bytes": 635750,
+      "gzip_bytes": 115534,
+      "sha256": "badcd94121e17b79a97e05c88e3b8e95ca53239b2fe99bc6e2e3046a276cad1e"
+    },
+    {
+      "path": "data/roads/65000270.geojson",
+      "bytes": 422283,
+      "gzip_bytes": 71892,
+      "sha256": "82919569178ac8562a335f54218e5a1b3cf5abd55792e86f3c19e266acf86c1c"
+    },
+    {
+      "path": "data/roads/65000280.geojson",
+      "bytes": 449643,
+      "gzip_bytes": 83539,
+      "sha256": "22f9f8e1575c37000f28eab7349974f0c539399ecfaef6ecc139c892deb2bc2b"
+    },
+    {
+      "path": "data/roads/65000290.geojson",
+      "bytes": 513279,
+      "gzip_bytes": 118113,
+      "sha256": "f1a4eb56dd017fe816d178a819641c90388bcc40cfa6f8cb82cd16c8588aaa85"
+    },
+    {
+      "path": "data/roads.geojson",
+      "bytes": 2272619,
+      "gzip_bytes": 329667,
+      "sha256": "173058d730cfd9bd89271cf281942baff49f45ec6354cc680e63695598d721bc"
+    },
+    {
+      "path": "data/route-comparison-summary.json",
+      "bytes": 4576,
+      "gzip_bytes": 885,
+      "sha256": "47df0fb1a4b947e8e33b1b97e80354a37dc6ce0e44facff4900e67b787adec48"
+    },
+    {
+      "path": "data/route-overview.geojson",
+      "bytes": 3639786,
+      "gzip_bytes": 976171,
+      "sha256": "d82a67026f69bf00979e60c785dc72ed7b20b07006308b6ae1b6e1d4a62631a9"
+    },
+    {
+      "path": "data/routes/00-stops.json",
+      "bytes": 846493,
+      "gzip_bytes": 173256,
+      "sha256": "f6d98f065758b0a217585476c259e489e8ee05d3ab301a8e4347992d0e43ce70"
+    },
+    {
+      "path": "data/routes/00.geojson",
+      "bytes": 536631,
+      "gzip_bytes": 195223,
+      "sha256": "01df349d59110151c00db0a285ff35589fa432d9a9096212dc0358db0a86797b"
+    },
+    {
+      "path": "data/routes/01-stops.json",
+      "bytes": 824969,
+      "gzip_bytes": 170542,
+      "sha256": "406f3cf2e9b539f7a9704114cb0b79705077e250817303c92e795af0e84cef13"
+    },
+    {
+      "path": "data/routes/01.geojson",
+      "bytes": 464333,
+      "gzip_bytes": 166254,
+      "sha256": "683423393bbb8a331f34a2d9b6fd7b10b7953bce23d7198508de60868e96a581"
+    },
+    {
+      "path": "data/routes/02-stops.json",
+      "bytes": 770598,
+      "gzip_bytes": 159378,
+      "sha256": "5c3e60227f6aeb8199b78a4ad2b19581dbaf7e2bca706bfe5f83ce75b26a80a7"
+    },
+    {
+      "path": "data/routes/02.geojson",
+      "bytes": 475716,
+      "gzip_bytes": 171381,
+      "sha256": "4ad257913beecb0d58a002f3fdb2f8730577c2c005f2ffb6c8bffcf75cb0d493"
+    },
+    {
+      "path": "data/routes/03-stops.json",
+      "bytes": 726054,
+      "gzip_bytes": 142251,
+      "sha256": "0c11d47c6e71632703d22ee8a18583cb89ca4d93ec046db599ff5eca5d2158c6"
+    },
+    {
+      "path": "data/routes/03.geojson",
+      "bytes": 458515,
+      "gzip_bytes": 157059,
+      "sha256": "400c174be15386e8d1db7318b5db89e791251cd07c90551ff05d7b10f28815eb"
+    },
+    {
+      "path": "data/routes/04-stops.json",
+      "bytes": 783034,
+      "gzip_bytes": 161291,
+      "sha256": "ca08b01781e3664c320d15e74854d1cc97fc251cf7cc4727e3d22ea72fdd6e3e"
+    },
+    {
+      "path": "data/routes/04.geojson",
+      "bytes": 557476,
+      "gzip_bytes": 204280,
+      "sha256": "51dd93adb92a2a9ae75bd56fc59405bcadfe406790c7fb94fd6cfd75b3f8a877"
+    },
+    {
+      "path": "data/routes/05-stops.json",
+      "bytes": 844338,
+      "gzip_bytes": 176053,
+      "sha256": "26b0650a1d6213a44d11b570019eb3ffc6e90c0edf1d19834ff2fd7144efb452"
+    },
+    {
+      "path": "data/routes/05.geojson",
+      "bytes": 507326,
+      "gzip_bytes": 187549,
+      "sha256": "415de140c2e697f96429bef810de736815b1ea51e245b1aa1b22543d13c9229c"
+    },
+    {
+      "path": "data/routes/06-stops.json",
+      "bytes": 700951,
+      "gzip_bytes": 148867,
+      "sha256": "cc657da39d72596860389c1e5b49dec7fe46737c4a53ed5fb34d5859b8cce1b1"
+    },
+    {
+      "path": "data/routes/06.geojson",
+      "bytes": 502471,
+      "gzip_bytes": 188779,
+      "sha256": "d8bbede52e8e1cfae160d82c9f5df48ce4d482362486ede0656d8979dd22ba1a"
+    },
+    {
+      "path": "data/routes/07-stops.json",
+      "bytes": 811093,
+      "gzip_bytes": 170204,
+      "sha256": "fb07b7cefc78d86dbeb5e67e332c6075a2545ea95cde72f5622c3c390276a726"
+    },
+    {
+      "path": "data/routes/07.geojson",
+      "bytes": 536048,
+      "gzip_bytes": 193723,
+      "sha256": "237499f812a94755b25301d2ca51070c792aa8968e19037c883fb49d4d18b1ad"
+    },
+    {
+      "path": "data/routes/08-stops.json",
+      "bytes": 760197,
+      "gzip_bytes": 159944,
+      "sha256": "9b6b7f24c75aeea8d0fef8e2c28b7fd74f299407cc8c5b0f8109e044fe5ef2b5"
+    },
+    {
+      "path": "data/routes/08.geojson",
+      "bytes": 421171,
+      "gzip_bytes": 155886,
+      "sha256": "3e6b108cc5f267e5b709ddbbaf79b56ca1bb0608118a1365fe017a46409de777"
+    },
+    {
+      "path": "data/routes/09-stops.json",
+      "bytes": 911367,
+      "gzip_bytes": 185889,
+      "sha256": "b20140366e191b8845cf00a874222cc4d6a8f3336fe696fc36bb2080d46c3861"
+    },
+    {
+      "path": "data/routes/09.geojson",
+      "bytes": 565555,
+      "gzip_bytes": 201957,
+      "sha256": "5f07f8b8b2ecdebb68531ef30b97b3c2bc67c7e7fa5f3a4240b15596371ffdfd"
+    },
+    {
+      "path": "data/routes/10-stops.json",
+      "bytes": 667838,
+      "gzip_bytes": 141441,
+      "sha256": "9ecc23ae9f41dcd425a43f4d3c70b4fcf237c0c2b145de5dc3d4a92af8a5f4a0"
+    },
+    {
+      "path": "data/routes/10.geojson",
+      "bytes": 474254,
+      "gzip_bytes": 174193,
+      "sha256": "e62c813398139dc59d20398677734b6ad05d013720c7eae566f0ed359207fcd5"
+    },
+    {
+      "path": "data/routes/11-stops.json",
+      "bytes": 749254,
+      "gzip_bytes": 153976,
+      "sha256": "a15e41862a919a6ffa9972666ce5f6c82d976c49e3fade312f53d64fc0bed9f1"
+    },
+    {
+      "path": "data/routes/11.geojson",
+      "bytes": 483948,
+      "gzip_bytes": 177444,
+      "sha256": "e24cbe52f78f0e8ed1c254209d42f0ddf865ba8ff2c8def771fd49a00a266891"
+    },
+    {
+      "path": "data/routes/12-stops.json",
+      "bytes": 749321,
+      "gzip_bytes": 157006,
+      "sha256": "0f2e9d9696f5d485d6398f140eef3f222bbe5722791f683141e389b9ce322b13"
+    },
+    {
+      "path": "data/routes/12.geojson",
+      "bytes": 512133,
+      "gzip_bytes": 191402,
+      "sha256": "8438f1b97ba54c4576113589010abd160a1ae9a009d4515da1c3693459504ead"
+    },
+    {
+      "path": "data/routes/13-stops.json",
+      "bytes": 751745,
+      "gzip_bytes": 161492,
+      "sha256": "781e40422c82ac21ca8a403f19da7f8e93460d1207dc89cfd4bce959bed0b47f"
+    },
+    {
+      "path": "data/routes/13.geojson",
+      "bytes": 464476,
+      "gzip_bytes": 170647,
+      "sha256": "14e84379c35555ef0e745ea621975a327ce8c58e70c12cdbbc73130f8e88972d"
+    },
+    {
+      "path": "data/routes/14-stops.json",
+      "bytes": 803157,
+      "gzip_bytes": 166549,
+      "sha256": "9b355053cde6cdc2cde93570976f108bfc37e7d5d5c8c4d17465ac7cc6b74ba6"
+    },
+    {
+      "path": "data/routes/14.geojson",
+      "bytes": 497788,
+      "gzip_bytes": 184830,
+      "sha256": "7a9ab63f3f53dc6faebd91b23007baee476ae2152cf6bda76e191822da831357"
+    },
+    {
+      "path": "data/routes/15-stops.json",
+      "bytes": 765359,
+      "gzip_bytes": 162615,
+      "sha256": "0c1a7e074138ad16e8b7c7277a40485187bb639560750a7c6556405141c99dfd"
+    },
+    {
+      "path": "data/routes/15.geojson",
+      "bytes": 482577,
+      "gzip_bytes": 179991,
+      "sha256": "790967a99eadf69023c22a63c7211e5dd0179f7a349624aff65bc79f262b6cb3"
+    },
+    {
+      "path": "data/routes-index.json",
+      "bytes": 7672848,
+      "gzip_bytes": 1005224,
+      "sha256": "3fd32c885218007042896523ce16a14b6c139b46dca255dfeae50e94bcf75658"
+    },
+    {
+      "path": "data/sources.json",
+      "bytes": 33551,
+      "gzip_bytes": 8555,
+      "sha256": "f1406692d8e8a4fcfca36d04a638a29ce0f8899f0a8ccb67f402da41d770e842"
+    },
+    {
+      "path": "data/stops.geojson",
+      "bytes": 2856764,
+      "gzip_bytes": 490085,
+      "sha256": "9610aaab935bbdcabdb466a18a1e71751d2b8800eb59c5b1b67f89ba69f9a7ae"
+    },
+    {
+      "path": "data/terrain.json",
+      "bytes": 573,
+      "gzip_bytes": 325,
+      "sha256": "7b9602c54ab2b1a2eb567ddb1110e29e9e2b3ff6ee024f685a1a9ae7ca6a5d36"
+    },
+    {
+      "path": "data/traffic-summary.json",
+      "bytes": 988,
+      "gzip_bytes": 325,
+      "sha256": "59dc84ed15426684c005bbc54a7c91e53c0089a585e7d2d6f15165581431fdac"
+    },
+    {
+      "path": "data/villages/63000010.geojson",
+      "bytes": 27882,
+      "gzip_bytes": 4685,
+      "sha256": "64762c1d6586e01de9c553c6d848dcbee90ecdf9a71fadfce9801e64ad118091"
+    },
+    {
+      "path": "data/villages/63000020.geojson",
+      "bytes": 51588,
+      "gzip_bytes": 9450,
+      "sha256": "d723c4a715244474866e3bd0024fd0d7429ac7cf6291e7bc6533e55bd13463f7"
+    },
+    {
+      "path": "data/villages/63000030.geojson",
+      "bytes": 39768,
+      "gzip_bytes": 5924,
+      "sha256": "0e9357a0c9faf0aafdb3d4e08885ae9cb9447e8a49d0f7da4dc92c17b139a490"
+    },
+    {
+      "path": "data/villages/63000040.geojson",
+      "bytes": 37291,
+      "gzip_bytes": 6697,
+      "sha256": "b3f1f712bd782304f49853697c20a1d7048114350e3f5153c1ac79fdfb715a18"
+    },
+    {
+      "path": "data/villages/63000050.geojson",
+      "bytes": 23257,
+      "gzip_bytes": 3677,
+      "sha256": "9b989263b61698ecf683d466d4a61ab05e4ca21a6b83cd529e9e51f3f97f8124"
+    },
+    {
+      "path": "data/villages/63000060.geojson",
+      "bytes": 18615,
+      "gzip_bytes": 3030,
+      "sha256": "e6ad94b19cdb6a78b4c87b305e6699716f3e80cfb82769b7cff619f4606298a8"
+    },
+    {
+      "path": "data/villages/63000070.geojson",
+      "bytes": 29765,
+      "gzip_bytes": 4805,
+      "sha256": "1d4c7b6e65de5e05be7eb5ddb7c050cb282265f9f66ceee893634d37d251d329"
+    },
+    {
+      "path": "data/villages/63000080.geojson",
+      "bytes": 98216,
+      "gzip_bytes": 22799,
+      "sha256": "fb91c472c8a6639cb6733e0f51402c71ac6884ed0d89401afbf761f77976ce98"
+    },
+    {
+      "path": "data/villages/63000090.geojson",
+      "bytes": 51663,
+      "gzip_bytes": 13148,
+      "sha256": "350a8bb24f0339a8f94fde0cd1e5a525eaf09b43fa30d5920fde05306e5d300f"
+    },
+    {
+      "path": "data/villages/63000100.geojson",
+      "bytes": 90107,
+      "gzip_bytes": 21585,
+      "sha256": "d898cc5e77aa466e88ba36ec9dcaedb87dd0ab53b652efda7bca72619e4fd668"
+    },
+    {
+      "path": "data/villages/63000110.geojson",
+      "bytes": 129197,
+      "gzip_bytes": 31784,
+      "sha256": "e456662e64e55f38a188f8282f8bfcb8a1f762196375a9e1c39c38f33d27ee5d"
+    },
+    {
+      "path": "data/villages/63000120.geojson",
+      "bytes": 119324,
+      "gzip_bytes": 27943,
+      "sha256": "6f3143d7614bb5c506b8772ff75b9c93218a898e121bc208b6b77ca638aacccf"
+    },
+    {
+      "path": "data/villages/65000010.geojson",
+      "bytes": 156338,
+      "gzip_bytes": 30118,
+      "sha256": "ca5c8558114150b7d6900e6b91010cc7f86b201519d1c1df0888b30ade7e5a17"
+    },
+    {
+      "path": "data/villages/65000020.geojson",
+      "bytes": 110886,
+      "gzip_bytes": 19101,
+      "sha256": "6be3a6dbfcb4a25e974dcb17721815c00cd2d97b378d5815b9e4c701f9be07a8"
+    },
+    {
+      "path": "data/villages/65000030.geojson",
+      "bytes": 137719,
+      "gzip_bytes": 28019,
+      "sha256": "19cd97d2505d99a7e04486f4f3364c8f122c94f227f6790c0b57dca0ae150379"
+    },
+    {
+      "path": "data/villages/65000040.geojson",
+      "bytes": 64705,
+      "gzip_bytes": 11167,
+      "sha256": "c1418479f3f9bdcde2cfca4b1f54c73c2de2b7d2ba8b78ac056b0ae41e70d414"
+    },
+    {
+      "path": "data/villages/65000050.geojson",
+      "bytes": 124202,
+      "gzip_bytes": 25122,
+      "sha256": "2a5fd0043e7fd4d0c2b5807dbc6e13d0ea175ad4d8058afcb6ae91b47aa4aafc"
+    },
+    {
+      "path": "data/villages/65000060.geojson",
+      "bytes": 198530,
+      "gzip_bytes": 49439,
+      "sha256": "79dc722a06bcb33e01302367835bce589aaa75356c162e9ad9c4184938c319fb"
+    },
+    {
+      "path": "data/villages/65000070.geojson",
+      "bytes": 95447,
+      "gzip_bytes": 21303,
+      "sha256": "cd6ed2baf798a854cb153eec18c9ad15f0a61d8c05e290e53db032df4a9ece63"
+    },
+    {
+      "path": "data/villages/65000080.geojson",
+      "bytes": 52374,
+      "gzip_bytes": 11501,
+      "sha256": "2235bad442d8a742235d24b21a7d85c1776fccd578ba7ef3874b3a693de396ae"
+    },
+    {
+      "path": "data/villages/65000090.geojson",
+      "bytes": 148197,
+      "gzip_bytes": 37568,
+      "sha256": "72604e78907443aa40b0236582d65a9d39e82fe4ad1b3b2471272576c360d3f6"
+    },
+    {
+      "path": "data/villages/65000100.geojson",
+      "bytes": 159935,
+      "gzip_bytes": 39981,
+      "sha256": "73ab635c349d455a6ef069cc1eb291a0070a0831eb4c5c7105daf397453eafcf"
+    },
+    {
+      "path": "data/villages/65000110.geojson",
+      "bytes": 136483,
+      "gzip_bytes": 31378,
+      "sha256": "581cd2e79f8940c3b6eee34720f09f0ec56b2ab80de09f390f163e8fc785b9d4"
+    },
+    {
+      "path": "data/villages/65000120.geojson",
+      "bytes": 161785,
+      "gzip_bytes": 40443,
+      "sha256": "01725e21a780b4ef7de342a66c6492da459ef61172fa06b376f89c8dba02f78a"
+    },
+    {
+      "path": "data/villages/65000130.geojson",
+      "bytes": 112300,
+      "gzip_bytes": 25202,
+      "sha256": "ff783df8fa9ee33ffedd0733e4da19a3071db707578287a9e0433b33765f77ec"
+    },
+    {
+      "path": "data/villages/65000140.geojson",
+      "bytes": 43342,
+      "gzip_bytes": 7772,
+      "sha256": "da17d654df8a9428033501afe06560a01c12da6f0650a02d1e0cc9b47ec7b952"
+    },
+    {
+      "path": "data/villages/65000150.geojson",
+      "bytes": 98136,
+      "gzip_bytes": 24162,
+      "sha256": "3f5da8779ddb4c843f18120d6165741a1abbb2b6bb0fc6d2180439007cb24db7"
+    },
+    {
+      "path": "data/villages/65000160.geojson",
+      "bytes": 69116,
+      "gzip_bytes": 17979,
+      "sha256": "7997c87ea5163b6a8f1c3e48c175c7688bb526dbf325bf653ccd90249e6aa2d7"
+    },
+    {
+      "path": "data/villages/65000170.geojson",
+      "bytes": 138823,
+      "gzip_bytes": 38977,
+      "sha256": "ef97aa6f7e5d76a588f25c10ec4ccfc4408d7a0c80cfd56a85a9300574c756bc"
+    },
+    {
+      "path": "data/villages/65000180.geojson",
+      "bytes": 39538,
+      "gzip_bytes": 9823,
+      "sha256": "827df68dd96103c558e3f4c68d1a03b1c221c590ff57d965a343fe5b21d09c37"
+    },
+    {
+      "path": "data/villages/65000190.geojson",
+      "bytes": 114806,
+      "gzip_bytes": 30974,
+      "sha256": "b939692964102a3c9a105bb14850752adbd14485db207e9d18b2f8189435a1d6"
+    },
+    {
+      "path": "data/villages/65000200.geojson",
+      "bytes": 107111,
+      "gzip_bytes": 30871,
+      "sha256": "79f674abfff56c401507c7d15a68d7e5670274630c49c51b4e6a71f6197bdd21"
+    },
+    {
+      "path": "data/villages/65000210.geojson",
+      "bytes": 127124,
+      "gzip_bytes": 32781,
+      "sha256": "293d1e8f370478e9483275ee442b51cfdfa884a3a57e3d7385e24afcdb91e5e7"
+    },
+    {
+      "path": "data/villages/65000220.geojson",
+      "bytes": 91490,
+      "gzip_bytes": 23837,
+      "sha256": "0e564ac8f5eb9ef9cb5e12c8522c1e30a199d23ffdc39d678ec889512df0671e"
+    },
+    {
+      "path": "data/villages/65000230.geojson",
+      "bytes": 69987,
+      "gzip_bytes": 18519,
+      "sha256": "542f5529126e94a7293fbcffa637332e6565390cab63577d470272353b3498dc"
+    },
+    {
+      "path": "data/villages/65000240.geojson",
+      "bytes": 98059,
+      "gzip_bytes": 25633,
+      "sha256": "0985ca7e8e260f4175b9f73691c9ff2fdbc8f6401395d245aec024f8b927b526"
+    },
+    {
+      "path": "data/villages/65000250.geojson",
+      "bytes": 108642,
+      "gzip_bytes": 28258,
+      "sha256": "15df5d9bed5b00b74645622d16bbeab8763f37abd9ab3d777bd3c622e59b2aac"
+    },
+    {
+      "path": "data/villages/65000260.geojson",
+      "bytes": 107346,
+      "gzip_bytes": 29179,
+      "sha256": "732ad176ea3d9ddff95f74b5317e09da7775343b002e987fb5e52e511a6fa5d9"
+    },
+    {
+      "path": "data/villages/65000270.geojson",
+      "bytes": 76689,
+      "gzip_bytes": 19252,
+      "sha256": "a1448874a3be07e8e8dfd71bd11864e0efa99b2e0c859b63ae3f291fa2b36343"
+    },
+    {
+      "path": "data/villages/65000280.geojson",
+      "bytes": 85823,
+      "gzip_bytes": 23884,
+      "sha256": "ded72d31c78e5b4bb49534ab7d6bcec79401affa594de260148a822b79786955"
+    },
+    {
+      "path": "data/villages/65000290.geojson",
+      "bytes": 94858,
+      "gzip_bytes": 28460,
+      "sha256": "001c1a8fae59eec820288c33056e9d55f916155952aafb1605bb0cf307521c16"
+    },
+    {
+      "path": "data/water.geojson",
+      "bytes": 1255045,
+      "gzip_bytes": 274699,
+      "sha256": "12ddb2f72dbd4f1b6e4a1f41ac96afb2bc921bbe7550e488c4b64d47203a31b4"
+    },
+    {
+      "path": "index.html",
+      "bytes": 15288,
+      "gzip_bytes": 6504,
+      "sha256": "61a240139940a6f4d4025a70d0a786cc6e2ad7375e7fa95eb8df1e6c7444a2b5"
+    }
+  ],
+  "policy": "built result website, reports, minimum necessary derived summaries; analysis code and raw snapshots stay local"
+}
