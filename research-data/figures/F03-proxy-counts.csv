@@ -1,0 +1,9 @@
+city,population_method,cells,allocated_population
+NewTaipei,known_zero,517,0
+NewTaipei,residential_support,15978,899089.699799
+NewTaipei,uniform_proxy,15706,3100491.20594
+NewTaipei,unknown,2058,43317.4770849
+Taipei,known_zero,211,0
+Taipei,residential_support,1958,859428.689994
+Taipei,uniform_proxy,2057,1616666.77942
+Taipei,unknown,353,14277.1227877

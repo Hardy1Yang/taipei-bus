@@ -1,0 +1,7 @@
+number_gap_bin,pair_count,finite_pair_count,shared_stop_pairs,shared_stop_fraction,inference
+0,0,0,0,,descriptive_dependent_pairs_no_additional_test
+1–9,2046,2046,593,0.289833822092,descriptive_dependent_pairs_no_additional_test
+10–49,7852,7852,1296,0.165053489557,descriptive_dependent_pairs_no_additional_test
+50–99,7205,7205,830,0.11519777932,descriptive_dependent_pairs_no_additional_test
+100–299,19873,19873,2373,0.119408242339,descriptive_dependent_pairs_no_additional_test
+≥300,33900,33900,3158,0.0931563421829,descriptive_dependent_pairs_no_additional_test
