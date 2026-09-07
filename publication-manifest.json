@@ -4,7 +4,8 @@
   "baseline_run": "00785592a53aa515ec69",
   "analysis_run": "b7c2a07d6d6e98a7b68f",
   "destination_run": "a9b24691958556d846d8",
-  "edition": "2026-09-07 · 研究版 03",
+  "numbering_run": "108d3b8f17de06d8f4af",
+  "edition": "2026-09-07 · 研究版 03.1",
   "published_date": "2026-09-07",
   "title": "流動的雙北：公車、捷運與日常可達性的時空研究",
   "scope": [
@@ -18,30 +19,31 @@
   "daytime_activity_period": "2023-11",
   "content_policy": "built result website, reports, minimum necessary derived summaries; analysis code and raw snapshots stay local",
   "manifest_self_excluded": true,
-  "report_pdf_sha256": "da3478e79d76e1f999f7a5caf888f0da0810b852161f8ea8c8580eef51258537",
+  "report_pdf_sha256": "7f0a543d653bac93cdfc17538fe95b5401319d16d7bab250d49363a922f09d5e",
   "validation": {
     "local_production_status": "passed",
     "local_production_scope": "full",
-    "first_load_encoded_bytes_max": 1882739,
+    "first_load_encoded_bytes_max": 1882880,
     "root_and_project_path_verified": true,
     "actual_webgl_verified": true,
     "findings_cards": 6,
     "destination_page_verified": true,
-    "quantitative_claims_verified": 224,
+    "quantitative_claims_verified": 245,
     "registered_terms": 56,
     "research_questions": 7,
     "research_verification_status": "passed",
-    "destination_review_status": "verified_with_interpretation_limits",
+    "numbering_review_run": "108d3b8f17de06d8f4af",
+    "numbering_neighbor_reproduction_max_error": 8.881784197001252e-16,
     "baseline_unchanged": true,
     "offline_replay_floating_atol": 1e-08,
     "offline_replay_floating_rtol": 1e-10,
     "offline_replay_network_requests": 0,
-    "python_tests_passed": 478,
+    "python_tests_passed": 498,
     "browser_tests_passed": 52
   },
   "status": "passed",
   "file_count": 1344,
-  "total_bytes": 196138314,
+  "total_bytes": 196149567,
   "files": [
     {
       "path": ".github/workflows/pages.yml",
@@ -57,9 +59,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 4669,
-      "gzip_bytes": 2614,
-      "sha256": "3498b3c0f70238e9c3d712f2a73976d6d9e6d5d0118e93dbc84f690806092e49"
+      "bytes": 4966,
+      "gzip_bytes": 2759,
+      "sha256": "948b76f12e7653b3cb8a6cc7d8ddcd8a5da2fc29d3f40e72232d795909ac33e3"
     },
     {
       "path": "article-assets/katex-0.18.5/LICENSE.txt",
@@ -194,10 +196,10 @@
       "sha256": "58de0d673317c0ee06548dee01f0f442ecc7927dcf3f1e2e5a72bf77d0931ea7"
     },
     {
-      "path": "assets/index-CaASqcMJ.js",
-      "bytes": 1060440,
-      "gzip_bytes": 283883,
-      "sha256": "b9961742c4ece2e7003572908bcf87b692fbfe612171099ea1a4409014b8e27f"
+      "path": "assets/index-BLpltk_H.js",
+      "bytes": 1060507,
+      "gzip_bytes": 283924,
+      "sha256": "ef36554f81d1c0e89ecd95aa1f3f022d232b3e1bd85a7c788461a294e403934f"
     },
     {
       "path": "assets/index-DZDFtq_5.css",
@@ -219,21 +221,21 @@
     },
     {
       "path": "book.html",
-      "bytes": 937436,
-      "gzip_bytes": 123230,
-      "sha256": "92c17e5c4c9781b421ab97b5b2f1b8550f28433cc984366d8acb517c808458de"
+      "bytes": 942041,
+      "gzip_bytes": 124183,
+      "sha256": "cc8683cc8cf1fa07e401cf2d90e39a0299c525d8443d7221ad402a32d08a70d6"
     },
     {
       "path": "book.md",
-      "bytes": 172727,
-      "gzip_bytes": 71998,
-      "sha256": "5df130476bfcf271f4e484002456865508086bdeeee5efe6af8e4e6ecc880705"
+      "bytes": 175080,
+      "gzip_bytes": 72823,
+      "sha256": "23c6968a1209fb623280936330f028c54f9283281cc7e2dff3d06cd564f072a5"
     },
     {
       "path": "book.pdf",
-      "bytes": 9034860,
-      "gzip_bytes": 7785142,
-      "sha256": "da3478e79d76e1f999f7a5caf888f0da0810b852161f8ea8c8580eef51258537"
+      "bytes": 9038500,
+      "gzip_bytes": 7788563,
+      "sha256": "7f0a543d653bac93cdfc17538fe95b5401319d16d7bab250d49363a922f09d5e"
     },
     {
       "path": "data/activity.json",
@@ -7851,9 +7853,9 @@
     },
     {
       "path": "index.html",
-      "bytes": 25330,
-      "gzip_bytes": 10485,
-      "sha256": "d18094748ca854213f76f23230bb6fb834d485b199dd21c1482218a20b9ed8c2"
+      "bytes": 25621,
+      "gzip_bytes": 10585,
+      "sha256": "b91dab7069d0df102ceef169dea5fa2b7aeee9f3e8dd0c050565f528873b1a0b"
     },
     {
       "path": "research-data/F01.json",
