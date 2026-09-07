@@ -1,0 +1,42 @@
+#rail-roles{--rail-ink:#263f3a;--rail-line:#c6d0c5;--rail-muted:#596d65;margin:44px 0;padding:28px 0;border-top:1px solid var(--rail-line);color:var(--rail-ink);font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",sans-serif;line-height:1.7;min-width:0;max-width:100%;overflow-wrap:anywhere}
+#rail-roles *{box-sizing:border-box}
+#rail-roles .rail-heading{display:block;max-width:900px;padding:0;margin:0 0 25px;border:0}
+#rail-roles .rail-heading h2{font-size:clamp(24px,3vw,34px);line-height:1.4;margin:7px 0 14px}
+#rail-roles .rail-eyebrow{font-size:13px;letter-spacing:.14em;color:var(--rail-muted);margin:0}
+#rail-roles .rail-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;max-width:850px;margin:20px 0}
+#rail-roles label{display:block;font-weight:600;font-size:15px;min-width:0}
+#rail-roles select,#rail-roles button{font:inherit;color:var(--rail-ink);border:1px solid #839a8c;background:#fffefa;border-radius:4px;padding:9px 11px;min-width:0;max-width:100%}
+#rail-roles select{display:block;width:100%;margin-top:6px}
+#rail-roles button{cursor:pointer}
+#rail-roles button:hover{background:#e5eee5}
+#rail-roles :focus-visible{outline:3px solid #d98e2b;outline-offset:3px}
+#rail-roles .rail-note{font-size:14px;max-width:980px;background:#e9eee5;padding:13px 17px;border-left:3px solid #587858}
+#rail-roles .rail-caption{font-size:13px;color:var(--rail-muted);margin:10px 0}
+#rail-roles .rail-legend{display:flex;flex-wrap:wrap;gap:14px 24px;font-size:14px;margin:24px 0 12px}
+#rail-roles .rail-legend span{display:inline-flex;align-items:center;gap:8px}
+#rail-roles .rail-legend i{display:inline-block;width:11px;height:11px;border-radius:50%;flex-shrink:0}
+#rail-roles .rail-threshold-bars{max-width:1000px;margin-bottom:28px}
+#rail-roles .rail-threshold-bars h3{font-size:18px;margin:12px 0 4px}
+#rail-roles .rail-bar-row{display:grid;grid-template-columns:98px minmax(0,1fr);gap:12px;align-items:center;margin:12px 0}
+#rail-roles .rail-bar-row button{font-size:14px;padding:6px 8px}
+#rail-roles .rail-active button{border:2px solid #38634f;background:#dfeadd;font-weight:700}
+#rail-roles .rail-stacked{display:flex;width:100%;height:31px;border-radius:3px;overflow:hidden;background:#e5e9e0}
+#rail-roles .rail-stacked span{display:flex;justify-content:center;align-items:center;color:#fff;font-size:13px;white-space:nowrap;min-width:0;text-shadow:0 1px 1px #0003}
+#rail-roles .rail-status{font-size:15px;font-weight:600;margin:20px 0 10px}
+#rail-roles .rail-plot{position:relative;width:100%;min-width:0;border:1px solid var(--rail-line);background:#fffefa;padding:8px 0}
+#rail-roles svg[data-rail-scatter]{width:100%;height:auto;display:block;overflow:visible}
+#rail-roles .rail-axis{fill:var(--rail-muted);font-family:inherit;font-size:12px}
+#rail-roles .rail-empty{fill:var(--rail-muted);font-family:inherit;font-size:13px}
+#rail-roles circle[data-route]{cursor:pointer}
+#rail-roles .rail-tooltip{position:absolute;z-index:2;top:30px;right:12px;max-width:min(400px,85%);padding:9px 12px;border:1px solid var(--rail-line);background:#fffef5;box-shadow:0 3px 10px #263f3a26;font-size:13px;pointer-events:none}
+#rail-roles .rail-tooltip[hidden]{display:none}
+#rail-roles .rail-selection{display:grid;grid-template-columns:minmax(0,1fr);max-width:1000px;margin-top:22px}
+#rail-roles .rail-detail{background:#ecf0e6;padding:16px 20px;border-left:3px solid #52745b;margin-top:8px;min-width:0}
+#rail-roles .rail-detail h3{font-size:19px;margin:0 0 10px}
+#rail-roles .rail-detail p{margin:8px 0}
+#rail-roles .rail-sequence-title{font-weight:600;font-size:14px}
+#rail-roles .rail-sequence{display:flex;flex-wrap:wrap;gap:10px 16px;padding:0;list-style:none;counter-reset:rail-node}
+#rail-roles .rail-sequence li{position:relative;counter-increment:rail-node;border-top:2px solid #809a7f;background:#fffdf5;padding:10px 12px;font-size:14px;min-width:80px}
+#rail-roles .rail-sequence li::before{content:counter(rail-node);display:inline-flex;align-items:center;justify-content:center;border:1px solid #597956;border-radius:50%;width:20px;height:20px;margin-right:7px;font-size:11px}
+#rail-roles .rail-sequence small{display:block;color:var(--rail-muted);font-size:11px;margin-top:4px}
+@media(max-width:600px){#rail-roles{margin:30px 0;padding-top:20px}#rail-roles .rail-controls{grid-template-columns:minmax(0,1fr);gap:14px}#rail-roles .rail-bar-row{grid-template-columns:80px minmax(0,1fr);gap:8px}#rail-roles .rail-legend{gap:9px 15px;font-size:12px}#rail-roles .rail-stacked span{font-size:11px}#rail-roles .rail-detail{padding:13px 14px}#rail-roles .rail-heading p{font-size:15px}}
